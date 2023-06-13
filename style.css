@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:200vh;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    overflow-y: scroll;
+}
+    header{
+        width:3rem;
+        height:100vh;
+        background-color:black;
+        display:flex;
+        justify-content: center;
+        align-items: flex-start;
+        position:fixed;
+        top:0px;
+        left: 0px;
+        margin-right: 10px;
+    }
+        nav{
+            width:100%;
+            height:100vh;
+            display:flex;
+            flex-flow:column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+            nav label{
+                color:white;
+                font-size: 2em;
+                margin-bottom:30px
+            }
+            nav ul{
+                display:flex;
+                flex-flow:column nowrap;
+                width:100%;
+                height: 100vh;
+                list-style: none;
+            }
+                nav ul li a{
+                    color:white;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom:30px;
+                    font-size: 1.3em;
+                }
+                    
+    main{
+        width:85%;
+        height: 95%;
+        display: flex;
+    }
+        section{
+            display:flex;
+            flex-flow:column nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            width:100%;
+            height:100%;
+        }
+            .art1{
+                width: 100%;
+                height:45%;
+                display:flex;
+                justify-content: center;
+                align-items: flex-start;
+            }
+                .art1 div{
+                    border:solid 3px black;
+                    width: 90%;
+                    height:95%;
+                    display:flex;
+                    flex-flow:column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top:10px;
+                }
+                .art1 div h1{
+                    font-size: 3em;
+                    margin-bottom:5px;
+                }
+                .art1 div label{
+                    font-size: 1em;
+                    margin-bottom:35px;
+                }
+            .art2{
+                height: 5%;
+                width:100%;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                position: sticky;
+                top:1%;
+            }
+                .art2 .count-fixed-content{
+                    border:solid 3px black;
+                    height:100%;
+                    width:90%;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items:center;
+                    color:black;
+                }
+            .art3{
+                height: 30%;
+                width:90%;
+                display:flex;
+                flex-flow: column nowrap;
+                justify-content: space-around;
+                align-items:center;
+            }
+                .art3 p{
+                    text-align: center;
+                }
+            .art4{
+                height: 15%;
+                display:flex;
+                flex-flow: column nowrap;
+                justify-content: space-around;
+                align-items: center;
+            }
+                .art4 p{
+                    text-align: center;
+                }
+            section .music{
+                width:10%;
+                height: 5%;
+                position: fixed;
+                bottom: 10px;
+                right: 0px;
+                z-index: 100;
+            }
+    footer{
+        width:85%;
+        height: 10%;
+        display: flex;
+        flex-flow:column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
