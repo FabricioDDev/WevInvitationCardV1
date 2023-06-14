@@ -18,22 +18,22 @@
             <label>Xv</label>
             <ul>
                 <li>
-                    <a href="">
+                    <a href="#art1">
                         <i class="fas fa-home fa-lg"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#art2">
                         <i class="fas fa-glass-cheers fa-lg"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#art4">
                         <i class="fas fa-calendar-check fa-lg"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="#art5">
                         <i class="fas fa-hashtag fa-lg"></i>
                     </a>
                 </li>
@@ -42,27 +42,44 @@
     </header>
     <main>
         <section>
-           <article class="art1">
+           <article class="art1" id="art1">
                 <div>
                     <h1>Brisa Xv</h1>
                     <label>Sabado 29 de Octubre</label>
-                    <a href=""><i class="fas fa-chevron-down fa-lg"></i></a>
+                    <a href="#art2"><i class="fas fa-chevron-down fa-lg"></i></a>
                 </div>
             </article>
-           <article class="art2">
+           <article class="art2" id="art2">
                 <div class="count-fixed-content">
                        <label  id="contadorD"></label>
                        <label  id="contadorH"></label>
                 </div>
            </article>
-           <article class="art3">
+           <article class="art3" id="art3">
             <h2>Fiesta</h2>
             <p>Me encantaria que formaras parte de este dia.</p>
             <p>Te espero el Sabado 29 de Octubre</p>
             <a href="">Confirma tu asistencia</a>
             <a>Como llegar?</a>
            </article>
-           <article class="art4">
+           <article class="art4" id="art4">
+                <form  action="https://formsubmit.co/2b706d0f1f4dc9fbf15807712dce6da8" method="POST">
+                    <label>Confirma tu asistencia!</label>
+                    <div>
+
+                        <label>Apellido familiar Y Nro de integrantes:</label>
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="name" placeholder="Ejemplo: FAMILIA RAMIREZ. 4 Integrantes" required>
+                        <input type="hidden" name="message" value="Ha confirmado su asistencia!" required>
+                        <input type="hidden" name="_subject" value="Nueva asistencia confirmada!">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/WebInvitacion_V1/index.html">
+                        <input type="hidden" id="btnSubmit" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/WebInvitacion_V1/Confirm.html">
+                        <button type="submit" id="btnsubmit">Send</button>
+                    </div>
+                </form>
+           </article>
+           <article class="art5" id="art5">
             <p>"Un sueño es solo un sueño, hasta que decides hacerlo realidad"</p>
             <p>#XvBrisa</p>
            </article>
@@ -81,6 +98,7 @@
         let stateMusic;
         let audio = new Audio("music.mp3");
         play.addEventListener("click", loadMusic);
+
         function loadMusic(){
             if(audio.paused){
                 stateMusic = 1;
