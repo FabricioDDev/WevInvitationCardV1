@@ -51,8 +51,19 @@
             </article>
            <article class="art2" id="art2">
                 <div class="count-fixed-content">
-                       <label  id="contadorD"></label>
-                       <label  id="contadorH"></label>
+                        <div>
+                            <label  id="contadorD"></label>
+                            <label class="type_count_title">Dias</label>
+                        </div>
+                       <div>
+                        <label  id="contadorH"></label>
+                        <label>:</label>
+                        <label  id="contadorM"></label>
+                        <label>:</label>
+                        <label  id="contadorS"></label>
+                        
+                        <label class="type_count_title">Horas</label>
+                       </div>
                 </div>
            </article>
            <article class="art3" id="art3">
@@ -64,7 +75,7 @@
            </article>
            <article class="art4" id="art4">
                 <form  action="https://formsubmit.co/2b706d0f1f4dc9fbf15807712dce6da8" method="POST">
-                    <label>Confirma tu asistencia!</label>
+                    <h3 class="titleArt3">Confirma tu asistencia!</h3>
                     <div>
 
                         <label>Apellido familiar Y Nro de integrantes:</label>
@@ -91,7 +102,7 @@
         </section>
     </main>
     <footer>
-        <h3>DammPh Eventos</h3>
+        <h4>DammPh Eventos</h4>
     </footer>
     <script>
         let play = document.getElementById("btnMusic");
@@ -125,8 +136,13 @@
         var segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
 
         // Actualiza el contenido del elemento label
-        document.getElementById("contadorH").innerHTML = "Horas:" + horas + ":" + minutos + ":" + segundos;
-        document.getElementById("contadorD").innerHTML = "Dias: " + dias;
+        document.getElementById("contadorD").innerHTML = dias;
+        document.getElementById("contadorH").innerHTML = horas;
+        document.getElementById("contadorM").innerHTML =  minutos ;
+        document.getElementById("contadorS").innerHTML =  segundos;
+       
+        
+        
         // Comprueba si el evento ya ha ocurrido
         if (diferencia < 0) {
             document.getElementById("contador").innerHTML = "El evento ha ocurrido";
