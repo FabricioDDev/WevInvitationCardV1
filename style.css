@@ -284,3 +284,56 @@ body{
         text-transform: uppercase;
         color:white;
     }
+
+   /* Estilos para pantallas de tamaño x a y  and (max-width: y)  */
+    @media screen and (min-width: 327px){
+        body{
+            width:100%;
+        }
+        header{
+            width:3.5rem;
+        }
+    }
+    @media screen and (min-width: 375px){
+        body{
+            width:100%;
+        }
+        header{
+            width:4rem;
+        }
+    }
+    @media screen and (min-width: 450px){
+        body{
+            width:100%;
+        }
+        header{
+            width:5rem;
+        }
+    }
+    @media screen and (min-width: 580px){
+        main{
+            width:85%;
+        }
+        header{
+            width:6rem;
+        }
+    }
+    @media screen and (min-width: 666px){
+        main{
+            width:87%;
+        }
+    }
+    @media screen and (min-width: 777px){
+        main{
+            width:90%;
+        }
+    }
+    @media screen and (min-width: 1000px){
+        main{
+            width:88%;
+        }
+        header{
+            width:8rem;
+        }
+    }
+  
