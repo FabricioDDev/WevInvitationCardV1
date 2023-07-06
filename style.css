@@ -164,8 +164,25 @@ body{
                 background-color: #fbf7ae6e;
                 border:solid 3px  white;
             }
+                h2{
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color:white;
+                }
                 .art3 p{
                     text-align: center;
+                    font-weight: bold;
+                    font-size:1em;
+                    color:white;
+                }
+                
+                .btn_ubicacion{
+                    text-decoration: none;
+                    color:white;
+                    border:solid 3px white;
+                    border-radius: 10%;
+                    padding: 10px;
+                    background-color: rgb(3, 84, 183);
                 }
             .art4{
                 height: 20%;
@@ -180,6 +197,9 @@ body{
                 h3{
                     font-size:1.3em;
                     text-align: center;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color:white;
                 }
                 .art4 form{
                     width: 100%;
@@ -202,9 +222,21 @@ body{
                     }
                     .art4 form div label{
                         margin-bottom: 10px;
+                        font-weight: bold;
+                        font-size:1em;
+                        color:white;
                     }
                     .art4 form div input{
                         width: 80%;
+                    }
+                    #btnsubmit{
+                        text-decoration: none;
+                        color:white;
+                        border:solid 3px white;
+                        border-radius: 10%;
+                        padding: 5px;
+                        margin:5px;
+                        background-color: rgb(0, 78, 0);
                     }
             .art5{
                 height: 10%;
@@ -218,8 +250,16 @@ body{
                 border:solid 3px  white;
                 margin-bottom:5px;
             }
-                .art5 p{
+            .hashtag{
+                font-weight: bold;
+                text-transform: uppercase;
+                color:white;
+            }
+                .frase{
                     text-align: center;
+                    font-weight: bold;
+                    color:white;
+                    font-size:1em;
                 }
             section .music #btnMusic{
                 width:10%;
@@ -240,5 +280,7 @@ body{
         justify-content: center;
         align-items: center;
         background: linear-gradient(to bottom, #E8AC41, #FF7538);
-   
+        font-weight: bold;
+        text-transform: uppercase;
+        color:white;
     }
