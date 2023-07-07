@@ -60,7 +60,8 @@ body{
         width:85%;
         height: 95%;
         display: flex;
-        background: linear-gradient(to bottom, #E8AC41, #FF7538);
+        background-image: url("blur.jpg");
+        background-position: left;
     }
         section{
             display:flex;
@@ -127,11 +128,11 @@ body{
                     color:rgb(255, 255, 255);
                     border:solid 3px  white;
                     
-                    margin-bottom:20px;
 
 
 
-                    background: rgba(206, 62, 62, 0.406);
+                    
+                background-color: #fbf7ae6e;
                     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
                     backdrop-filter: blur( 2px );
                     -webkit-backdrop-filter: blur( 4px );
@@ -144,12 +145,12 @@ body{
                 }
                 #contadorH, #contadorM , #contadorS, #contadorD{
                     background: linear-gradient(to bottom, #E8AC41, #FF7538);
-                    border:solid 3px white;
+                    border:solid 1px white;
                     padding: 0px 10px 0px;
                 }
                 .type_count_title{
                     background: linear-gradient(to bottom, #E8AC41, #FF7538);
-                    border:solid 3px white;
+                    border:solid 1px white;
                     padding: 0px 10px 0px;
                     margin-left: 3%;
                 }
@@ -161,8 +162,7 @@ body{
                 flex-flow: column nowrap;
                 justify-content: space-around;
                 align-items:center;
-                background-color: #fbf7ae6e;
-                border:solid 3px  white;
+                background: linear-gradient(to bottom, #e8ab41a1, #ff7438a6);
             }
                 h2{
                     font-weight: bold;
@@ -192,8 +192,7 @@ body{
                 align-content: center;
                 
                 background-color: #fbf7ae6e;
-                border:solid 3px  white;
-            }
+              }
                 h3{
                     font-size:1.3em;
                     text-align: center;
@@ -246,9 +245,11 @@ body{
                 flex-flow: column nowrap;
                 justify-content: space-around;
                 align-items: center;
-                background-color: #fbf7ae6e;
-                border:solid 3px  white;
+              
+                background: linear-gradient(to bottom, #e8ab41a1, #ff7438a6);
                 margin-bottom:5px;
+                
+                
             }
             .hashtag{
                 font-weight: bold;
@@ -268,9 +269,18 @@ body{
                 bottom: 10px;
                 right: 5px;
                 z-index: 100;
-                background: linear-gradient(to bottom, #E8AC41, #FF7538);
-                border:solid 3px white;
-                color: white;
+               
+                
+                border:solid 3px  white;
+                color:white;
+                
+
+                background-color: #fbf7ae6e;
+                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                backdrop-filter: blur( 2px );
+                -webkit-backdrop-filter: blur( 4px );
+
+               
             }
     footer{
         width:85%;
