@@ -60,8 +60,8 @@ body{
         width:85%;
         height: 95%;
         display: flex;
-        background-image: url("blur.jpg");
-        background-position: left;
+        background-image: url("blur2.jpg");
+        background-position: right;
     }
         section{
             display:flex;
@@ -77,11 +77,11 @@ body{
                 display:flex;
                 justify-content: center;
                 align-items: center;
-                background: linear-gradient(to bottom, #E8AC41, #FF7538);
-                
+                background-image: url("blur2.jpg");
+                background-position: center;
             }
                 .art1 div{
-                    border:solid 3px  white;
+                    border:solid 1px  white;
                     width: 80%;
                     height:90%;
                     display:flex;
@@ -126,7 +126,7 @@ body{
                     justify-content: center;
                     align-items:center;
                     color:rgb(255, 255, 255);
-                    border:solid 3px  white;
+                    border:solid 1px  white;
                     
 
 
@@ -162,27 +162,34 @@ body{
                 flex-flow: column nowrap;
                 justify-content: space-around;
                 align-items:center;
-                background: linear-gradient(to bottom, #e8ab41a1, #ff7438a6);
-            }
+                background-color: rgba(255, 255, 255, 0.353);
+                border:solid 1px  white;}
                 h2{
                     font-weight: bold;
                     text-transform: uppercase;
                     color:white;
+                }
+                .party-content1{
+                    height:90%;
+                    width:100%;
                 }
                 .art3 p{
                     text-align: center;
                     font-weight: bold;
                     font-size:1em;
                     color:white;
+                    background-color: rgba(165, 35, 165, 0.416);
+                    padding:5%;
+                }
+                img{
+                    height:50%;
+                    width:100%;
                 }
                 
                 .btn_ubicacion{
                     text-decoration: none;
                     color:white;
-                    border:solid 3px white;
-                    border-radius: 10%;
-                    padding: 10px;
-                    background-color: rgb(3, 84, 183);
+                    
                 }
             .art4{
                 height: 20%;
@@ -190,8 +197,8 @@ body{
                 display: flex;
                 justify-content: center;
                 align-content: center;
-                
-                background-color: #fbf7ae6e;
+                background-color: rgba(255, 255, 255, 0.353);
+                border:solid 1px  white;
               }
                 h3{
                     font-size:1.3em;
@@ -245,10 +252,9 @@ body{
                 flex-flow: column nowrap;
                 justify-content: space-around;
                 align-items: center;
-              
-                background: linear-gradient(to bottom, #e8ab41a1, #ff7438a6);
+                background-color: rgba(255, 255, 255, 0.353);
                 margin-bottom:5px;
-                
+                border:solid 1px  white;
                 
             }
             .hashtag{
@@ -289,8 +295,7 @@ body{
         flex-flow:column nowrap;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(to bottom, #E8AC41, #FF7538);
-        font-weight: bold;
+        background-color: #f1c9a2e8;font-weight: bold;
         text-transform: uppercase;
         color:white;
     }
