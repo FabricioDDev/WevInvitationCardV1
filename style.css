@@ -125,7 +125,7 @@ body{
                     flex-flow: column nowrap;
                     justify-content: center;
                     align-items:center;
-                    color:rgb(255, 255, 255);
+                    background-color: #f1c9a2e8;
                     border:solid 1px  white;
                     
 
@@ -144,13 +144,11 @@ body{
                     flex-flow:row nowrap;
                 }
                 #contadorH, #contadorM , #contadorS, #contadorD{
-                    background: linear-gradient(to bottom, #E8AC41, #FF7538);
-                    border:solid 1px white;
+                    background-color: rgba(165, 35, 165, 0.416); border:solid 1px white;
                     padding: 0px 10px 0px;
                 }
                 .type_count_title{
-                    background: linear-gradient(to bottom, #E8AC41, #FF7538);
-                    border:solid 1px white;
+                    background-color: rgba(165, 35, 165, 0.416); border:solid 1px white;
                     padding: 0px 10px 0px;
                     margin-left: 3%;
                 }
@@ -160,7 +158,7 @@ body{
                 width:80%;
                 display:flex;
                 flex-flow: column nowrap;
-                justify-content: space-around;
+                justify-content:center;
                 align-items:center;
                 background-color: rgba(255, 255, 255, 0.353);
                 border:solid 1px  white;}
@@ -168,10 +166,13 @@ body{
                     font-weight: bold;
                     text-transform: uppercase;
                     color:white;
+                    margin-bottom:3%;
+                    font-size:1em;
                 }
                 .party-content1{
-                    height:90%;
-                    width:100%;
+                    height:40%;
+                    width:90%;
+                    border:solid 1px  white;
                 }
                 .art3 p{
                     text-align: center;
@@ -182,14 +183,14 @@ body{
                     padding:5%;
                 }
                 img{
-                    height:50%;
+                    height:70%;
                     width:100%;
                 }
                 
                 .btn_ubicacion{
                     text-decoration: none;
                     color:white;
-                    
+                    text-decoration: underline;
                 }
             .art4{
                 height: 20%;
@@ -201,11 +202,12 @@ body{
                 border:solid 1px  white;
               }
                 h3{
-                    font-size:1.3em;
+                    font-size:1em;
                     text-align: center;
                     font-weight: bold;
                     text-transform: uppercase;
                     color:white;
+                    margin:3%;
                 }
                 .art4 form{
                     width: 100%;
@@ -213,18 +215,20 @@ body{
                     display: flex;
                     flex-flow: column nowrap;
                     justify-content: center;
-                    align-content: center;
+                    align-items: center;
                 }
                     .art4 form label{
                         text-align: center;
                     }
                     .art4 form div{
-                        width: 100%;
-                        height:50%;
+                        width: 90%;
+                        height:70%;
                         display: flex;
                         flex-flow: column nowrap;
                         justify-content: center;
                         align-items: center;
+                        background-color: rgba(165, 35, 165, 0.416);
+                        border: solid 1px white;
                     }
                     .art4 form div label{
                         margin-bottom: 10px;
@@ -261,12 +265,14 @@ body{
                 font-weight: bold;
                 text-transform: uppercase;
                 color:white;
+                text-decoration: underline;
             }
                 .frase{
                     text-align: center;
                     font-weight: bold;
                     color:white;
                     font-size:1em;
+                    text-decoration: underline;
                 }
             section .music #btnMusic{
                 width:10%;
@@ -281,7 +287,7 @@ body{
                 color:white;
                 
 
-                background-color: #fbf7ae6e;
+                background-color: rgba(165, 35, 165, 0.416);
                 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
                 backdrop-filter: blur( 2px );
                 -webkit-backdrop-filter: blur( 4px );
