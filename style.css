@@ -125,14 +125,9 @@ body{
                     flex-flow: column nowrap;
                     justify-content: center;
                     align-items:center;
-                    background-color: #f1c9a2e8;
+                    background-color: #f5d3b0;
                     border:solid 1px  white;
-                    
-
-
-
-                    
-                background-color: #fbf7ae6e;
+                    color:white;
                     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
                     backdrop-filter: blur( 2px );
                     -webkit-backdrop-filter: blur( 4px );
@@ -158,7 +153,7 @@ body{
                 width:80%;
                 display:flex;
                 flex-flow: column nowrap;
-                justify-content:center;
+                justify-content:flex-start;
                 align-items:center;
                 background-color: rgba(255, 255, 255, 0.353);
                 border:solid 1px  white;}
@@ -166,25 +161,36 @@ body{
                     font-weight: bold;
                     text-transform: uppercase;
                     color:white;
-                    margin-bottom:3%;
                     font-size:1em;
+                    margin:3%;
                 }
                 .party-content1{
-                    height:40%;
+                   height:70%;
                     width:90%;
                     border:solid 1px  white;
+                    background-color: #f5d3b0;
+                        
                 }
                 .art3 p{
+                    height:auto;
                     text-align: center;
                     font-weight: bold;
                     font-size:1em;
                     color:white;
-                    background-color: rgba(165, 35, 165, 0.416);
-                    padding:5%;
+                    padding:2%;
                 }
                 img{
-                    height:70%;
+                    height:50%;
                     width:100%;
+                    Object-fit:cover;
+                }
+
+                .ubication{
+                    display:flex;
+                    flex-flow:column nowrap; 
+                    justify-content:center;
+                    align-items:center;
+                    margin-top:5%;
                 }
                 
                 .btn_ubicacion{
@@ -227,8 +233,8 @@ body{
                         flex-flow: column nowrap;
                         justify-content: center;
                         align-items: center;
-                        background-color: rgba(165, 35, 165, 0.416);
-                        border: solid 1px white;
+                        background-color: #f5d3b0;
+                         border: solid 1px white;
                     }
                     .art4 form div label{
                         margin-bottom: 10px;
@@ -310,14 +316,34 @@ body{
     @media screen and (min-width: 327px){
         body{
             width:100%;
+            height:250vh;
         }
         header{
             width:3.5rem;
+        }
+        .art1{
+            height:40%;
+        }
+        h2{
+            font-size:1.5em;
+        }
+        .party-content1 p{
+            font-size:1.3em;
+        }
+        h3{
+            font-size:1.5em;
+        }
+        .art4  form div label{
+            font-size:1.3em;
+        }
+        .frase{
+            font-size:1.3em;
         }
     }
     @media screen and (min-width: 375px){
         body{
             width:100%;
+            height:30  0vh;
         }
         header{
             width:4rem;
@@ -333,14 +359,20 @@ body{
     }
     @media screen and (min-width: 580px){
         main{
-            width:85%;
+            width:87%;
         }
         header{
             width:6rem;
         }
+        .art1 div h1{
+            font-size:6em;
+        }
     }
     @media screen and (min-width: 666px){
         main{
+            width:87%;
+        }
+        footer{
             width:87%;
         }
     }
@@ -348,13 +380,18 @@ body{
         main{
             width:90%;
         }
+        footer{
+            width:90%;
+        }
     }
     @media screen and (min-width: 1000px){
         main{
-            width:88%;
+            width:90%;
         }
         header{
             width:8rem;
         }
+        footer{
+            width:90%;
+        }
     }
-  
