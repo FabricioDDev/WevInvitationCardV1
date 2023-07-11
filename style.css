@@ -5,7 +5,7 @@
 }
 body{
     width:100%;
-    height:200vh;
+    height:300vh;
     display:flex;
     flex-flow:row wrap;
     justify-content: flex-end;
@@ -60,7 +60,7 @@ body{
         width:85%;
         height: 95%;
         display: flex;
-        background-image: url("blur3.jpg");
+        background-image: url("blur2.jpg");
         background-position: right;
     }
         section{
@@ -73,7 +73,7 @@ body{
         }
             .art1{
                 width: 100%;
-                height:45%;
+                height:35%;
                 display:flex;
                 justify-content: center;
                 align-items: center;
@@ -108,7 +108,7 @@ body{
                 }
             .art2{
                 align-self: flex-end;
-                height: 5%;
+                height: 3%;
                 width:99%;
                 display:flex;
                 justify-content: center;
@@ -116,7 +116,7 @@ body{
                 position: sticky;
                 top:1%;
                 background: transparent;
-                
+                margin-bottom:10%;
             }
                 .art2 .count-fixed-content{
                     height:100%;
@@ -128,7 +128,7 @@ body{
                     background-color: #f5d3b0;
                     border:solid 1px  white;
                     color:white;
-                    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                    box-shadow: 0 3px 52px 0 rgba( 31, 38, 135, 0.37 );
                     backdrop-filter: blur( 2px );
                     -webkit-backdrop-filter: blur( 4px );
                     
@@ -149,27 +149,28 @@ body{
                 }
 
             .art3{
-                height: 30%;
+                height: 26%;
                 width:80%;
                 display:flex;
                 flex-flow: column nowrap;
-                justify-content:flex-start;
+                justify-content:space-evenly;
                 align-items:center;
                 background-color: rgba(255, 255, 255, 0.353);
-                border:solid 1px  white;}
+                border:solid 1px  white;
+                }
+
                 h2{
                     font-weight: bold;
                     text-transform: uppercase;
                     color:white;
-                    font-size:1em;
-                    margin:3%;
+                    font-size:1.5em;
                 }
                 .party-content1{
-                   height:70%;
+                   height:60%;
                     width:90%;
                     border:solid 1px  white;
                     background-color: #f5d3b0;
-                        
+                    border-radius: 0px 0px 50px 0px;
                 }
                 .art3 p{
                     height:auto;
@@ -190,7 +191,6 @@ body{
                     flex-flow:column nowrap; 
                     justify-content:center;
                     align-items:center;
-                    margin-top:5%;
                 }
                 
                 .btn_ubicacion{
@@ -202,7 +202,7 @@ body{
                 height: 20%;
                 width: 80%;
                 display: flex;
-                justify-content: center;
+                justify-content: space-evenly;
                 align-content: center;
                 background-color: rgba(255, 255, 255, 0.353);
                 border:solid 1px  white;
@@ -220,7 +220,7 @@ body{
                     height:100%;
                     display: flex;
                     flex-flow: column nowrap;
-                    justify-content: center;
+                    justify-content: space-evenly;
                     align-items: center;
                 }
                     .art4 form label{
@@ -231,10 +231,11 @@ body{
                         height:70%;
                         display: flex;
                         flex-flow: column nowrap;
-                        justify-content: center;
+                        justify-content: space-evenly;
                         align-items: center;
                         background-color: #f5d3b0;
                          border: solid 1px white;
+                          border-radius: 0px 0px 50px 0px;
                     }
                     .art4 form div label{
                         margin-bottom: 10px;
@@ -255,7 +256,7 @@ body{
                         background-color: rgb(0, 78, 0);
                     }
             .art5{
-                height: 10%;
+                height: 15%;
 
                 width:80%;
                 display:flex;
@@ -316,13 +317,13 @@ body{
     @media screen and (min-width: 327px){
         body{
             width:100%;
-            height:250vh;
+            height:300vh;
         }
         header{
             width:3.5rem;
         }
         .art1{
-            height:40%;
+            height:25%;
         }
         h2{
             font-size:1.5em;
@@ -343,7 +344,7 @@ body{
     @media screen and (min-width: 375px){
         body{
             width:100%;
-            height:30  0vh;
+            height:400vh;
         }
         header{
             width:4rem;
