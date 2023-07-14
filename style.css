@@ -166,7 +166,8 @@ body{
                     font-weight: 10px;
                 }
                 .party-content1{
-                   height:auto;
+                    height:auto;
+                    max-height: 60%;
                     width:90%;
                     border:solid 1px  white;
                     background-color: #f5d3b0;
